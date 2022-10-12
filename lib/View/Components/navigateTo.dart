@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import '../Constants/Colors Manager/colors_manager.dart';
+
+import '../../Constants/Colors Manager/colors_manager.dart';
 
 ///default Button
 Widget defaultButton({required text, double? width, required Color buttonColor, required Color textColor, Function()? onPressed,}) => SizedBox(

@@ -6,14 +6,14 @@ import '../../Constants/Images Manager/Images_manager.dart';
 class Sign_up_arabic_page extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Directionality(
-      textDirection: TextDirection.rtl,
-      child: Scaffold(
-        resizeToAvoidBottomInset: false,
-        appBar: defaultAppBar(text:"Create New Account",centerTitle: true,),
-        body: Padding(
-          padding: const EdgeInsets.all(12.0),
-          child: SingleChildScrollView(
+    return Scaffold(
+      resizeToAvoidBottomInset: false,
+      appBar: defaultAppBar(text:"Create New Account",centerTitle: true,leadingIcon: Icons.arrow_back_ios),
+      body: Padding(
+        padding: const EdgeInsets.all(12.0),
+        child: SingleChildScrollView(
+          child: Directionality(
+            textDirection: TextDirection.rtl,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -41,7 +41,7 @@ class Sign_up_arabic_page extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    const Text("لدي حساب بلفعل", style: TextStyle(fontSize: 12),),
+                    const Text("لدي حساب بالفعل", style: TextStyle(fontSize: 12),),
                     const SizedBox(width: 5,),
                     TextButton(onPressed: () {}, child: const Text("تسجيل الدخول", style: TextStyle(fontSize: 12),),),
                   ],
