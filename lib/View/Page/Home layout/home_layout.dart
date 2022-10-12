@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:mono_ui/Bloc/App_cubit/App_Cubit.dart';
-import '../../Bloc/App_cubit/App_States.dart';
-import '../../Constants/Images Manager/Images_manager.dart';
+import '../../../Constants/Images Manager/Images_manager.dart';
+import '../../../View_Model/Bloc/App_cubit/App_Cubit.dart';
+import '../../../View_Model/Bloc/App_cubit/App_States.dart';
+
 
 class home_layout extends StatelessWidget {
   @override

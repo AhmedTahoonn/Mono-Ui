@@ -1,8 +1,13 @@
 import 'dart:core';
 import 'package:flutter/material.dart';
-import 'package:mono_ui/Modules/Home%20layout/home_layout.dart';
-import '../../Components/Components_Page.dart';
-import '../../Constants/Colors Manager/colors_manager.dart';
+
+import '../../../Constants/Colors Manager/colors_manager.dart';
+import '../../Components/defaultAppBar.dart';
+import '../../Components/navigateTo.dart';
+import '../../Components/defaultButton.dart';
+import '../../Components/verificationField.dart';
+import '../Home layout/home_layout.dart';
+
 
 class verification_page extends StatefulWidget {
   @override

@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-import '../../Components/Components_Page.dart';
-import '../../Constants/Colors Manager/colors_manager.dart';
-import '../../Constants/Images Manager/Images_manager.dart';
-import '../../Models/onBoarding_model/onBoarding_model.dart';
+import '../../../Constants/Colors Manager/colors_manager.dart';
+import '../../../Constants/Images Manager/Images_manager.dart';
+import '../../../Models/onBoarding_model/onBoarding_model.dart';
+import '../../Components/navigateTo.dart';
+import '../../Components/defaultButton.dart';
 import '../Sign in Page/Sign in Page.dart';
 
 class onBoarding_Screen extends StatelessWidget {

@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:mono_ui/Modules/Home%20layout/home_layout.dart';
-import '../../Components/Components_Page.dart';
-import '../../Constants/Colors Manager/colors_manager.dart';
-import '../../Constants/Images Manager/Images_manager.dart';
+import '../../../Constants/Colors Manager/colors_manager.dart';
+import '../../../Constants/Images Manager/Images_manager.dart';
+import '../../Components/defaultAppBar.dart';
+import '../../Components/navigateTo.dart';
+import '../../Components/default TextFormField.dart';
+import '../../Components/defaultButton.dart';
+import '../../Components/socialButton.dart';
 import '../Forgot Password Page/forget_password_page.dart';
 import '../Sign Up Page/sign_up.dart';
 import '../Verification_Page/Verification Page.dart';

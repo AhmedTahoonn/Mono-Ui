@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
-import '../../Components/Components_Page.dart';
-import '../../Constants/Colors Manager/colors_manager.dart';
-import '../../Constants/Images Manager/Images_manager.dart';
+import '../../../Constants/Colors Manager/colors_manager.dart';
+import '../../../Constants/Images Manager/Images_manager.dart';
+import '../../Components/defaultAppBar.dart';
+import '../../Components/navigateTo.dart';
+import '../../Components/default TextFormField.dart';
+import '../../Components/defaultButton.dart';
+import '../../Components/socialButton.dart';
+
 
 class Sign_up_arabic_page extends StatelessWidget {
   @override

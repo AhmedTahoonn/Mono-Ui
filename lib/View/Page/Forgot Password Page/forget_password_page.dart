@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:mono_ui/Constants/Images%20Manager/Images_manager.dart';
+import '../../../Constants/Colors Manager/colors_manager.dart';
+import '../../Components/defaultAppBar.dart';
+import '../../Components/navigateTo.dart';
+import '../../Components/defaultButton.dart';
 
-import '../../Components/Components_Page.dart';
-import '../../Constants/Colors Manager/colors_manager.dart';
 
 class forgot_Password_Screen extends StatefulWidget {
   @override

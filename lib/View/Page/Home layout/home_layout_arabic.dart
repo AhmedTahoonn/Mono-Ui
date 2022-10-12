@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:mono_ui/Bloc/App_cubit/App_Cubit.dart';
-import 'package:mono_ui/Constants/Colors%20Manager/colors_manager.dart';
-import '../../../../Bloc/App_cubit/App_States.dart';
+
 import '../../../../Constants/Images Manager/Images_manager.dart';
 import '../BottomNavigatonBar_Pages/Home page/Arabic Home Page.dart';
 

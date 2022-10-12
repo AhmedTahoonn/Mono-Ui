@@ -1,11 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:mono_ui/Bloc/App_cubit/App_Cubit.dart';
-import 'package:mono_ui/Components/Components_Page.dart';
 import 'package:mono_ui/Constants/Images%20Manager/Images_manager.dart';
-import '../../../Bloc/App_cubit/App_States.dart';
-import '../../../Constants/Colors Manager/colors_manager.dart';
+import '../../../../Constants/Colors Manager/colors_manager.dart';
+import '../../../../View_Model/Bloc/App_cubit/App_Cubit.dart';
+import '../../../../View_Model/Bloc/App_cubit/App_States.dart';
+import '../../../Components/defaultAppBar.dart';
+import '../../../Components/navigateTo.dart';
 import 'My Services Page Content/my_finished_services.dart';
 import 'My Services Page Content/my_waiting_services.dart';
 import 'My Services Page Content/my_working_services.dart';

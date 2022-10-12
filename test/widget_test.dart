@@ -7,7 +7,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:mono_ui/Modules/Root_Page/Root%20Page.dart';
+import 'package:mono_ui/View/Page/Root_Page/Root%20Page.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {

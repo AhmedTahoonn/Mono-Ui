@@ -1,9 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import '../../../Components/Components_Page.dart';
-import '../../../Constants/Colors Manager/colors_manager.dart';
-import '../../../Constants/Images Manager/Images_manager.dart';
-import '../../../Models/Category_model/category_model.dart';
+import '../../../../Constants/Colors Manager/colors_manager.dart';
+import '../../../../Constants/Images Manager/Images_manager.dart';
+import '../../../../Models/Category_model/category_model.dart';
 import '../My Requests Page/My_Requests_Page.dart';
 import '../My Services Page/My_Services_page.dart';
 

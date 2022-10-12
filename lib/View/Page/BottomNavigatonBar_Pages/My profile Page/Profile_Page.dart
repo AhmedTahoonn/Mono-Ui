@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
-import '../../../Constants/Colors Manager/colors_manager.dart';
-import '../../../Constants/Images Manager/Images_manager.dart';
+import '../../../../Constants/Colors Manager/colors_manager.dart';
+import '../../../../Constants/Images Manager/Images_manager.dart';
+
+
 
 class profile extends StatelessWidget {
 

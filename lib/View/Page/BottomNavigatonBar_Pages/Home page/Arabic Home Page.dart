@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import '../../../../../Constants/Colors Manager/colors_manager.dart';
 import '../../../../../Constants/Images Manager/Images_manager.dart';
-import '../../../Components/Components_Page.dart';
+import '../../../Components/navigateTo.dart';
+import '../../../Components/defaultButton.dart';
 import '../My Services Page/My_Services_page.dart';
 
 class home_page_arabic extends StatefulWidget {

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import '../../../../Components/Components_Page.dart';
-import '../../../../Constants/Colors Manager/colors_manager.dart';
+import '../../../../../Constants/Colors Manager/colors_manager.dart';
+import '../../../../Components/navigateTo.dart';
+import '../../../../Components/defaultButton.dart';
 import '../My_Services_page.dart';
 
 class my_finished_services extends StatelessWidget {

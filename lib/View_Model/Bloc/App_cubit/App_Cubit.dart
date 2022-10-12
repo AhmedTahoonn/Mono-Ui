@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../../Modules/BottomNavigatonBar_Pages/Home page/Home_Page.dart';
-import '../../Modules/BottomNavigatonBar_Pages/My Requests Page/My_Requests_Page.dart';
-import '../../Modules/BottomNavigatonBar_Pages/My Services Page/My_Services_page.dart';
-import '../../Modules/BottomNavigatonBar_Pages/My profile Page/Profile_Page.dart';
+import '../../../View/Page/BottomNavigatonBar_Pages/Home page/Home_Page.dart';
+import '../../../View/Page/BottomNavigatonBar_Pages/My Requests Page/My_Requests_Page.dart';
+import '../../../View/Page/BottomNavigatonBar_Pages/My Services Page/My_Services_page.dart';
+import '../../../View/Page/BottomNavigatonBar_Pages/My profile Page/Profile_Page.dart';
 import 'App_States.dart';
 
 class AppCubit extends Cubit<AppStates> {

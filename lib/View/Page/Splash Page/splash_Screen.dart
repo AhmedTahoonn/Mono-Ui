@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import '../../Components/Components_Page.dart';
-import '../../Constants/Colors Manager/colors_manager.dart';
-
-import '../../Constants/Images Manager/Images_manager.dart';
-import '../../Constants/Strings Manager/strings_manager.dart';
+import '../../../Constants/Colors Manager/colors_manager.dart';
+import '../../../Constants/Images Manager/Images_manager.dart';
+import '../../../Constants/Strings Manager/strings_manager.dart';
+import '../../Components/navigateTo.dart';
 import '../On Boareding_Page/Onboarding_Screen.dart';
 
 class splash_Screen extends StatefulWidget {
@@ -28,7 +27,7 @@ class _splash_ScreenState extends State<splash_Screen> {
           children:
           [
             Expanded(flex: 6, child: Image(image: AssetImage(AppImages.logo), width: 143, height: 105,),),
-            const Expanded(flex: 1, child: Text(AppStrings.app_Name, style: TextStyle(fontSize: 24, color: AppColor.whiteColor, fontWeight: FontWeight.bold,),),),
+             Expanded(flex: 1, child: Text(AppStrings.app_Name, style: TextStyle(fontSize: 24, color: AppColor.whiteColor, fontWeight: FontWeight.bold,),),),
           ],
         ),
       ),
